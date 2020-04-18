@@ -1,6 +1,6 @@
-﻿[
+﻿[// Javascript Serialization Object Notation
   {
-    "Title": "The Land Girls",
+    "Title": "The Land Girls",  // Each line essentially represents property
     "USGross": 146083,
     "WorldwideGross": 146083,
     "USDVDSales": null,

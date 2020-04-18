@@ -16,6 +16,11 @@ namespace Movies
         public string Title { get; set; }
                 
         /// <summary>
+        /// Gets or sets the director of the movie
+        /// </summary>
+        public string Director { get; set; }
+
+        /// <summary>
         /// Gets or sets the MPAA rating of the movie
         /// </summary>
         public string MPAARating { get; set; }
@@ -28,7 +33,7 @@ namespace Movies
         /// <summary>
         /// Gets or sets the IMDB rating of the movie
         /// </summary>
-        public float? IMDBRating { get; set; }
+        public float? IMDBRating { get; set; }  // ? Wraps floating point number in an object which can be nullable.
 
         /// <summary>
         /// Gets or sets the rotten tomatoes rating of the movie

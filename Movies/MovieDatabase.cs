@@ -17,7 +17,7 @@ namespace Movies
         /// <summary>
         /// Loads the movie database from the JSON file
         /// </summary>
-        static MovieDatabase() {
+        static MovieDatabase() {    // Static, so can not be instanciated as an object, but is essentially called once.
             
             using (StreamReader file = System.IO.File.OpenText("movies.json"))
             {
